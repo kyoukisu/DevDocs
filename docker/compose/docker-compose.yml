@@ -56,7 +56,7 @@ services:
 
   crawl4ai:
     image: unclecode/crawl4ai:latest
-    container_name: devdocs-crawl4ai
+    container_name: crawl4ai
     ports:
       - "11235:11235"
     environment:
